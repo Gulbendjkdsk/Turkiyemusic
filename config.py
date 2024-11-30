@@ -17,7 +17,7 @@ API_HASH = getenv("API_HASH", "ef15199702ea76ebb2ebe4eca477ab60")
 BOT_TOKEN = getenv("BOT_TOKEN", "8104159672:AAEUGKLpkoWfC8oY5u5QGAIyGYH6zQ3VBJI")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://yunussswq56:GRBc7qu2vlf8Iup0@cluster0.dogib.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 5400))
 
@@ -25,10 +25,10 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "5400")
 )
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", ""))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002484777844"))
 
 # Get this value from @Hot_Girl_Robot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7048354045"))
+OWNER_ID = int(getenv("OWNER_ID", "6623140842"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
